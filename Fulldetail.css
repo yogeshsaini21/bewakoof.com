@@ -1,0 +1,47 @@
+#full1>img{
+     
+     height: 600px;
+     width: 600px;
+     border: 2px solid black;
+}
+#full{
+     height: 600px;
+     width: 80%;
+     margin: auto;
+     display: flex;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     
+}
+#full2{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     display:flex;
+     width: 600px;
+     height: 600px;
+     background-color: black;
+     
+    
+}
+#Siddhu{
+     
+     padding: 6px 35px 6px 35px;
+     border-radius: 5px;
+     color: white;
+     background-color: black;
+     margin-top:-300px;
+}
+#full2>h2{
+    margin-left: 20px;
+    color: gray;
+    
+}
+#full2>h2+h3{
+    margin-left: 20px;
+    color: gray;
+   
+}
+#full2>h2+h3+h3{
+    margin-left: 20px;
+    color: gray;
+    
+}
+
