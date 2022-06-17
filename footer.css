@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Footer */
+
+#vinay-footer{
+    background: #181818;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 100px 150px 200px 150px;
+}
+
+
+/* FOOTER-1 */
+
+#footer1{
+    height: auto;
+
+}
+
+#footer1 .icon{
+    color: #ffd835;
+    font-size: 35px;
+    padding: 20px 0px;
+    font-weight: bolder;
+}
+
+#footer1 .icon span{
+    font-size: small;
+    position: relative;
+    top: -20px;
+}
+
+.footer1-0{
+    display: flex;
+    justify-content: left;
+}
+
+.footer1-0-title{
+    color: #ffd835;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer1-0-div{
+margin-right: 130px;
+}
+
+.footer1-0-div li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer1-0-div i{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.footer1-0-div  #search{
+    height: 40px;
+    width: 180px;
+    padding: 0px 10px;
+    font-size: 20px;
+    background: #181818;
+    border: none;
+    border-bottom: 2px solid #ffd835;
+}
+
+.footer1-0-div  #submit{
+    height: 40px;
+    color: #ffd835;
+    width: auto;
+    padding: 0px 10px;
+    font-size: 20px;
+    background: #181818;
+    border: 2px solid #ffd835;
+    /* border-bottom: #ffd835; */
+}
+
+.footer1-0-div2{
+    margin-right: 130px;
+    margin-top: 50px;
+    }
+
+.footer1-0-div2 li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.hr-row{
+    margin: 30px 20px;
+
+}
+
+
+/* Footer2 */
+
+#footer2{
+    display: flex;
+
+}
+
+.footer2-div{
+    margin-right: 130px;
+}
+
+.footer2-div li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer2-div-title{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.footer2-div-subTitle{
+    font-size: 19px;
+    margin: 20px 0px;
+    font-weight: bolder;
+}
+
+.footer2-div-title-2{
+    color: #51CCCC;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.hr-row{
+    margin: 30px 20px;
+}
+
+
+
+/* FOOTER3 */
+
+#footer3{
+    text-align: left;
+}
+
+.footer3-title{
+    margin: 30px 0px 20px 0px;
+}
+
+.footer3-para{
+    margin: 0px 0px 15px 0px; 
+    font-size: 19px;
+}
