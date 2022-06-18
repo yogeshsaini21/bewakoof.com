@@ -1,8 +1,8 @@
 
 
-    let atc_userdata = JSON.parse(localStorage.getItem("userDatas")) 
+    // let atc_userdata = JSON.parse(localStorage.getItem("userDatas")) 
     
-    user_email.append(`User Email : ${atc_userdata.Email}`)
+    // user_email.append(`User Email : ${atc_userdata.email}`)
 
     let atcitemarr = JSON.parse(localStorage.getItem("mencart"));
     console.log(atcitemarr)
@@ -149,7 +149,7 @@
 
     function totalprice(data) {
         var add = 0;
-        count = 0;
+        var count = 0;
         var tp = document.createElement("h2");
         data.forEach(function (element) {
             add += +(element.Realamount);
@@ -167,3 +167,8 @@
         window.location.href="payment.html"
 
     }
+
+
+    import footer from "./footer.js"
+
+document.getElementById("vinay-footer").innerHTML = footer();
