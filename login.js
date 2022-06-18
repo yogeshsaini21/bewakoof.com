@@ -22,7 +22,7 @@ function login(){
   
 import navbar from "./navbar.js";
 
-document.getElementById("navbar").innerHTML= navbar();
+document.getElementById("navbar1").innerHTML= navbar();
 
 document.getElementById("logo_1").addEventListener("click",func)
 
