@@ -1,0 +1,113 @@
+#layout{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+  }
+  #onne{
+    margin-left: 50px;
+    text-align: left;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  #randu{
+    margin-left: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  #moonnu{
+    margin-left: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(87, 159, 218);
+  }
+  svg{
+    margin-left: 5px;
+    width: 20px;
+    margin-top: 2px;
+    height: 15px;
+  }
+  #boox1{
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    position: relative;
+    height: fit-content;
+    width: 500px;
+    border: 1px solid black;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  }
+  .Filter{
+    margin-left: 10px;
+  }
+  .Filter1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #Ho_lder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 30px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #Ho_lder>div
+  {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    line-height: 18px;
+    background-color: whitesmoke;
+  }
+  #Ho_lder>div>img{
+    height: auto;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 3px;
+  }
+  #Ho_lder>div>img+h6{
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  #Ho_lder>div>img+h6+p{
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+  }
+  #Ho_lder>div>img+h6+p+p+p{
+    font-family: sans-serif;
+    margin-left: 5px;
+  }
+  #shanky{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+  }
+  #S_ort{
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    margin-left: 75%;
+    margin-top: -50px;
+  }
+  #So_rt_By{
+    padding: 10px 10px 10px 10px;
+  }
+  #searchSort{
+    padding: 10px 10px 10px 10px;
+  }
+  #h4_1{
+    margin-left: 300px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
