@@ -1,4 +1,8 @@
 
+import navbar from "./Navbar/navbar.js";
+
+document.getElementById("navbar").innerHTML= navbar();
+
 
 
 let dest = new Date("june 24, 2022 12:00:00").getTime();
@@ -42,7 +46,5 @@ import footer from "./footer.js"
 document.getElementById("vinay-footer").innerHTML = footer();
 
 
-import navbar from "./Navbar/navbar.js";
 
-document.getElementById("navbar").innerHTML= navbar();
 

@@ -19,45 +19,47 @@
 function navbar(){
     return `
             <div id="up_navbar">
-            <div>
-                <div>
+            
+                <div class="up_navbar-box">
                     <p>Offers</p>
                     <p>Fanbook</p>
                     <p><i class="fa-solid fa-mobile"></i>  Download App</p>
                     <p>TriBe Membership</p>
                 </div>
-                <div>
+                <div class="up_navbar-box2">
                     <p>Contact Us</p>
                     <p>Track Order</p>
                 </div>
-            </div>
+
         </div>
 
-        <div id="navbar">
-            <div>
-                <div>
-                    <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
-                </div>
-                <div>
-                    <p>MEN</p>
-                    <p>WOMEN</p>
-                    <p>MOBILE COVERS</p>
-                </div>
-                <div id="icons">
-                    <div>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="query" placeholder="Search by product, category or collection" />
+        <div id="bottom-nav">
+           
+                <div id="section1"> 
+                    <div id="logo" class="navbar-box">
+                        <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
                     </div>
-                    <div>
-                        <div></div>
-                        <i class="fa-regular fa-user"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-bag-shopping"></i>
-                        
+                    <div id="catagory-section" class="navbar-box">
+                        <p>MEN</p>
+                        <p>WOMEN</p>
+                        <p>MOBILE COVERS</p>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div id="section2"> 
+                        <div id="search" class="navbar-box">
+                            <input type="text" id="query" placeholder="Search by product, category or collection" />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <hr id="seperator" />
+                        <div id="icons" class="navbar-box">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-heart"></i>
+                            <a href="../addtocart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                            
+                        </div>   
+                </div>
+         </div>
     `;
 
 }
