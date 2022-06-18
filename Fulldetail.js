@@ -41,3 +41,14 @@ function Remove(elem,index){
   window.location.reload()
   localStorage.setItem("Fullviwe",JSON.stringify(FUllV))
 }
+
+import navbar from "./navbar.js";
+
+document.getElementById("navbar").innerHTML= navbar();
+
+document.getElementById("logo_1").addEventListener("click",func)
+
+function func(){
+     
+    window.location.href="index.html"
+}

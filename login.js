@@ -20,3 +20,13 @@ function login(){
     else alert("try agian")
 }
   
+import navbar from "./navbar.js";
+
+document.getElementById("navbar").innerHTML= navbar();
+
+document.getElementById("logo_1").addEventListener("click",func)
+
+function func(){
+     
+    window.location.href="index.html"
+}
