@@ -1,8 +1,8 @@
 
 
-    let atc_userdata = JSON.parse(localStorage.getItem("userDatas")) 
-    
-    user_email.append(`User Email : ${atc_userdata.Email}`)
+    // let atc_userdata = JSON.parse(localStorage.getItem("userDatas")) 
+    // 
+    // user_email.append(`User Email : ${atc_userdata.Email}`)
 
     let atcitemarr = JSON.parse(localStorage.getItem("mencart"));
     console.log(atcitemarr)
@@ -167,3 +167,7 @@
         window.location.href="payment.html"
 
     }
+
+ 
+
+ 
