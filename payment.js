@@ -17,3 +17,11 @@ get.push(obj);
 localStorage.setItem("user", JSON.stringify(get))
 
 }
+
+
+document.getElementById("logo_1").addEventListener("click",func)
+
+function func(){
+     
+    window.location.href="index.html"
+}
