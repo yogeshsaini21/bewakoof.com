@@ -39,7 +39,7 @@ function navbar(){
         <div id="navbar">
             <div>
                 <div>
-                    <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
+                    <img id="logo_1" src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
                 </div>
                 <div>
                     <p>MEN</p>

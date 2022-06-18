@@ -15,7 +15,7 @@ get.push(obj);
 
 
 localStorage.setItem("user", JSON.stringify(get))
-
+window.location.href="index.html"
 }
 
 
