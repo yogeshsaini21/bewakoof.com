@@ -1,5 +1,5 @@
 
-import navbar from "./Navbar/navbar.js";
+import navbar from "./navbar.js";
 
 document.getElementById("navbar").innerHTML= navbar();
 

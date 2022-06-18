@@ -20,3 +20,14 @@ var userArr=JSON.parse(localStorage.getItem("userDatas")) || [];
         localStorage.setItem("userDatas",JSON.stringify(data));
         window.location.href="login.html"
     })
+
+    import navbar from "./navbar.js";
+
+document.getElementById("navbar").innerHTML= navbar();
+
+document.getElementById("logo_1").addEventListener("click",func)
+
+function func(){
+     
+    window.location.href="index.html"
+}

@@ -37,7 +37,7 @@ function navbar(){
            
                 <div id="section1"> 
                     <div id="logo" class="navbar-box">
-                        <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
+                        <img id="logo_1" src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="logo">
                     </div>
                     <div id="catagory-section" class="navbar-box">
                         <p>MEN</p>
@@ -53,9 +53,9 @@ function navbar(){
                         </div>
                         <hr id="seperator" />
                         <div id="icons" class="navbar-box">
-                            <i class="fa-regular fa-user"></i>
+                            <a href="./register.html"><i class="fa-regular fa-user"></i></a>
                             <i class="fa-regular fa-heart"></i>
-                            <a href="../addtocart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                            <a href="./addtocart.html"><i class="fa-solid fa-bag-shopping"></i></a>
                             
                         </div>   
                 </div>
