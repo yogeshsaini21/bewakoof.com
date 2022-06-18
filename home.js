@@ -35,3 +35,9 @@ let timer = document.getElementById("timerBox").innerHTML = `
 
 }, 1000);
 
+
+
+import footer from "./footer.js"
+
+document.getElementById("vinay-footer").innerHTML = footer();
+
