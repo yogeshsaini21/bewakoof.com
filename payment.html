@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+
+    <div id="bewakoof">
+      <img src="https://images.bewakoof.com/web/ic-desktop-pride-bwkf-logo.svg" alt="image">
+    </div>
+    
+    <div id="user-form">
+        <h1>Payment</h1>
+
+        <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+
+            <form id="form">
+            <label>Payment Option</label>
+            <select name="" id="cardOption">
+                <option value="">Payment option</option>
+                <option value="debitCard">Debit Card</option>
+                <option value="creditCard">Credit Card</option>
+                
+            </select><br>
+            <label>Name on Card</label>
+            <input type="text" id="cname" placeholder="Name" required><br>
+            <label>Credit Card No.</label>
+            <input type="number" id="ccnum"  placeholder="1111-2222-3333-4444"><br>
+            <label>Exp Month</label>
+            <input type="text" id="expmonth"  placeholder="Month"><br>
+            <label>Exp Year</label>
+            <input type="text" id="expyear" placeholder="Year"><br>
+            <label>CVV</label>
+            <input type="number" id="cvv" placeholder="cvv">   
+        </form>
+
+      <button id="submit" onclick="myFun()">Submit</button>
+     
+    </div>
+  </body>
+</html>
+
+
+<script src="payment.js"></script>

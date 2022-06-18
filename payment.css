@@ -1,0 +1,99 @@
+
+ #user-form {
+    height: 560px;
+    width: 600px;
+    /* border: 1px solid; */
+    margin: auto;
+    background-color:rgb(196, 196, 255);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+  }
+  #bewakoof {
+    height: 56px;
+    width: 100%;
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  img {
+    padding: 5px;
+  }
+ 
+  #submit {
+  padding: 7px 27px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  margin-left: 230px;
+  margin-top: 25px;
+  }
+  h1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  #cname {
+    
+    margin-left: 40px;
+    border-radius: 8px;
+    border: none;
+    height: 33px;
+    width: 55%;
+    margin-top: 25px;
+  }
+  #expmonth {
+    border: none;
+    height: 33px;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 77px;
+    border-radius: 8px;
+   
+
+  }
+  #expyear {
+    border-radius: 8px;
+    border: none;
+    height: 33px;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 98px;
+  }
+  #cvv {
+    border-radius: 8px;
+    border: none;
+    height: 33px;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 133px;
+
+  }
+  #ccnum {
+    border-radius: 8px;
+    border: none;
+    height: 33px;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 28px;
+
+  }
+  label {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  select {
+    font-size: 16px;
+    margin-left: 24px;
+    height: 33px;
+    width: 55%;
+    border-radius: 8px;
+    border: none;
+    color: grey;
+  }
+  #form {
+    margin-top: 15px;
+  }
