@@ -1,8 +1,7 @@
 
 
     // let atc_userdata = JSON.parse(localStorage.getItem("userDatas")) 
-    
-    // user_email.append(`User Email : ${atc_userdata.email}`)
+
 
     let atcitemarr = JSON.parse(localStorage.getItem("mencart"));
     console.log(atcitemarr)
@@ -169,6 +168,3 @@
     }
 
 
-    import footer from "./footer.js"
-
-document.getElementById("vinay-footer").innerHTML = footer();
