@@ -41,3 +41,8 @@ import footer from "./footer.js"
 
 document.getElementById("vinay-footer").innerHTML = footer();
 
+
+import navbar from "./Navbar/navbar.js";
+
+document.getElementById("navbar").innerHTML= navbar();
+
