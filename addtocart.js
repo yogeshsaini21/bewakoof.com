@@ -167,4 +167,6 @@
 
     }
 
+    import footer from "./footer.js"
 
+    document.getElementById("vinay-footer").innerHTML = footer();
