@@ -273,3 +273,7 @@ var investorsData = [
      window.location.href="Fulldetail.html"
      
   }
+
+  import footer from "./footer.js"
+
+   document.getElementById("vinay-footer").innerHTML = footer();
