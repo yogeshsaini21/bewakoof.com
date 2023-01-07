@@ -65,7 +65,7 @@ it became very complicated to login a user then we change the structure and made
 - Yogesh
 - Sanket
 - Vinay
-- sumedh
+- Shubham
 - tarun
 
 ## IA 
